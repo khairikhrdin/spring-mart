@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  springmart:
+    image: springmart
+    build:
+      context: .
+      dockerfile: ./Dockerfile

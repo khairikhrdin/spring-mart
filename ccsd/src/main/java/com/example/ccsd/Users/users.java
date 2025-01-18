@@ -35,7 +35,7 @@ public class users {
     public void setImageStore64String(String imageStore64String) {
         this.imageStore64String = imageStore64String;
     }
-    
+
     // Getters and Setters
     public String getId() {
         return id;

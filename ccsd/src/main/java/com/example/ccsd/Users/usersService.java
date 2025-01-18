@@ -54,7 +54,7 @@ public class usersService {
         usersRepository.deleteById(id);
     }
 
-    // Get user by email
+    // Get user by emailA
     public users getUserByEmail(String email) {
         return usersRepository.findAll()
                 .stream()
